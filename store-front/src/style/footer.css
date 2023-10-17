@@ -1,0 +1,11 @@
+.footerImg{
+    height: 110px !important;
+    border-radius: 20px;
+}
+.msg:focus{
+    color: var(--bs-body-color);
+  
+    border-color: none !important;
+    outline: 0;
+    box-shadow: -1px 1px 7px 3px #dc3545c9 !important;
+}

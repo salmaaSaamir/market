@@ -1,0 +1,26 @@
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.searchInput:focus{
+    border-color: #383c4276;
+    box-shadow: 0 0 0 0.25rem rgba(59, 64, 71, 0.25);
+}
+.alert{
+    grid-column-start: 1;
+    grid-column-end: 5 !important;
+
+}
+.page-wrapper {
+    background-color: rgb(20 19 19 / 73%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
